@@ -1,0 +1,56 @@
+.formPanel{
+	background: #2B60DE;
+	margin:0 auto;
+	text-align: center;
+	width: 400;
+/*
+	font-color: '#fff';
+*/
+}
+
+.formPanelBody{
+	background: #000;
+}
+
+.formHTML{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	font-size: 2.2em;
+}
+
+.formData{
+	padding-left:20px;
+	padding-right:20px;
+	color: #444;
+	font-family: 'Open Sans', sans-serif; 
+	font-size:16px; 
+	font-weight:lighter;"
+}
+
+.links{
+	border:1px solid #2B60DE;
+	color: #444;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight:lighter;
+	margin-left: 250px;
+	background: #fff;
+}
+
+.formDEMO{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 400;
+	font-size: 2.2em;
+	border-color: white;
+}
+
+.icons{
+	width: 20px;
+	height: 20px;
+}
+
+.iconRefresh{
+	width: 16px;
+	height: 16px;
+}

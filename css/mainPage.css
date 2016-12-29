@@ -1,0 +1,64 @@
+.mainEdit{
+	margin-left: 130%;
+	margin-right:130%;
+	border:2px solid #99bce8;
+}
+
+.htmlData{
+	margin-left: 130%;
+	margin-right:130%;
+	border:2px solid #99bce8;
+}
+
+.highlight{
+	border: 1px solid #99bce8;
+	background-color: #F2F5A9;
+}
+
+.header{
+	color: #04408c; 
+}
+
+.toolbar{
+	position:absolute; 
+	bottom:0;
+	text-align: 'right';
+}
+
+.grid{
+	margin-top: 0px;
+	/*width:500px;*/
+
+}
+
+.text{
+	/*height: 200px;*/
+	margin-top: 0px;
+}
+
+.greenIcon{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../resources/icons/Green_256.png");
+    background-size: 12px 12px;
+    margin-right: 5px;
+}
+.yellowIcon{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../resources/icons/Yellow_256.png");
+    background-size: 12px 12px;
+}
+.amberIcon{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../resources/icons/Amber_256.png");
+    background-size: 12px 12px;
+}
+.redIcon{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../resources/icons/Red_256.png");
+    background-size: 12px 12px;
+}
+

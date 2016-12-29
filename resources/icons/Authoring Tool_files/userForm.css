@@ -1,0 +1,84 @@
+
+.metaId,
+.metaFirstName,
+.metaLastname,
+.metaIsAdmin,
+.metaCreatedOn,
+.metaModifiedOn,
+.metaCreatedBy,
+.metaModifiedBy{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+
+}
+.metaId{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaFirstName{
+    top: 10px;
+    left: 100px;
+    width: 250px;
+}
+
+.metaLastname{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaIsAdmin{
+    top: 10px;
+    left: 100px;
+    width: 700px;
+}
+
+.metaCreatedOn{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaModifiedOn{
+    top: 10px;
+    left: 100px;
+    width: 700px;
+}
+
+.metaCreatedBy{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metamodifiedby{
+    top: 10px;
+    left: 100px;
+    width: 750px;
+}
+
+.gridUsers{
+    -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    transition:width 300ms ease-in-out, height 300ms ease-in-out;
+}
+.searchText{
+    position: relative;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    top: 12px;
+    color: white;
+    font-weight: 400;
+}
+
+.searchBox{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    top: -17px;
+    left: 120px;
+}

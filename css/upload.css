@@ -1,0 +1,28 @@
+
+#dragload
+        {
+            /*width: 100%;*/
+            /*height: 70px;*/
+          /*  background:#d2dff3;*/
+            /*padding: 1px;*/
+            text-align: center;
+            /*margin: 1 1 1 1;*/
+            /*border: 1.5px dashed royalblue;*/
+            font-weight: 70;
+            font-size:0.8em;
+          }    
+
+.upload{
+            font-family: 'Open Sans', sans-serif;
+            color: #000;
+            font-weight: 100;
+            font-size: 1.0em;
+            border-color: white;
+        }
+#dragload2{
+    text-align: center;
+    /*margin: 1 1 1 1;*/
+    /*border: 1.5px dashed royalblue;*/
+    font-weight: 50;
+    font-size:0.6em;
+}

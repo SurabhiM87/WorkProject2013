@@ -1,0 +1,129 @@
+
+.metaId,
+.metaFirstName,
+.metaLastname,
+.metaIsAdmin,
+.metaCreatedOn,
+.metaModifiedOn,
+.metaCreatedBy,
+.metaModifiedBy{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+
+}
+.metaId{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaFirstName{
+    top: 10px;
+    left: 100px;
+    width: 250px;
+}
+
+.metaLastname{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaIsAdmin{
+    top: 10px;
+    left: 100px;
+    width: 700px;
+}
+
+.metaCreatedOn{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metaModifiedOn{
+    top: 10px;
+    left: 100px;
+    width: 700px;
+}
+
+.metaCreatedBy{
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.metamodifiedby{
+    top: 10px;
+    left: 100px;
+    width: 750px;
+}
+
+.gridUsers{
+    -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    transition:width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.searchBox{
+    position: relative;
+    width: 80%;
+    margin: 2px 5px 2px 5px;/*edited by kejal*/
+    height: 40px;
+    /*top: -17px;*/
+    left: 10px;
+}
+
+.mainPageSearchBox{
+    position: relative;
+    /*width: 200px;*/
+    /*width: 10%;*/
+    /*height: 40px;*/
+    top: 10px;
+    left: 10px;
+}
+.searchicons{
+
+    position: relative;
+    margin: 15px 10px 10px 10px;/*edited by kejal*/
+    /*top: -10px;*/
+}
+.addDocIcon{
+    position: relative;
+    /*margin: 10px 10px 0px;*/
+    /*top: 0px;*/
+}
+
+
+.disabledTextboxCls  {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+.disabledTextboxCls input {
+    font-weight: bold;
+    color: #656565;
+}
+
+.disabledFormTypeTextboxCls input {
+    /*font-weight: bold;*/
+    color: #000;
+}
+
+.spaces{
+    padding-bottom: 15px;
+}
+
+#mainPageLogOutBtn .x-btn-inner {
+    font-size: 12px;
+    font-weight: bold;
+    color: #6666A2;
+}
+
+.divider{
+    color: #fff;
+}

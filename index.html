@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Authoring Tool</title>
+    <!-- <x-compile> -->
+    <!-- <x-bootstrap> -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="ext/ext-all.js"></script>
+    <script src="bootstrap.js"></script>
+
+    <script src="lib/jquery-1.10.2.min.js"></script>
+    <script src="javascript/json.js"></script>
+    <script src="javascript/session.warning.js"></script>
+    <script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="tinymce3/jscripts/tiny_mce/tiny_mce.js"></script>
+    <script src="javascript/encoder.js"> </script>
+
+
+    <script type="text/javascript" src="ext/src/ux/upload/plupload/js/plupload.full.js"></script>
+    <script type="text/javascript" src="ext/src/ux/upload/plupload/js/plupload.html4.js"></script>
+    <script type="text/javascript" src="ext/src/ux/upload/plupload/js/plupload.html5.js"></script>
+    <script type="text/javascript" src="ext/src/ux/upload/plupload/js/plupload.flash.js"></script>
+    <script type="text/javascript" src="ext/src/ux/upload/plupload/js/plupload.silverlight.js"></script>
+
+    <!-- </x-bootstrap> -->
+    <script src="app/app.js"></script>
+    <!-- </x-compile> -->
+    <!-- CSS -->
+    <link href="css/form.css" rel="stylesheet" type="text/css" />
+    <link href="css/upload.css" rel="stylesheet" type="text/css" />
+    <link href="css/userForm.css" rel="stylesheet" type="text/css" />
+    <link href="css/loginForm.css" rel="stylesheet" type="text/css" />
+    <link href="css/custome.css" rel="stylesheet" type="text/css">
+    <link href="css/mainPage.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+<div class="CUS_outterwrap" onclick="closethisCUS()">
+    <div class="CUS_innerwrap">
+        <div class="CUS_popUpPanle">
+            <div class="CUS_detailedText">
+                <p>Select company from the dropdown menu</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    if(jQuery.support.boxModel){
+        Ext.Msg.alert('Status', 'This Browser does not support our application. \nPlease use one of the following browsers:\n 1. Chrome \n 2. Safari \n 3. Mozilla Firefox \n 4. Internet Explorer 10');
+    }
+</script>
+<script>
+    function closethisCUS(){
+        $(".CUS_outterwrap").fadeOut(300);
+    }
+    $(function(){
+        $('.CUS_outterwrap').css({
+            'height':$(window).height()
+        });
+    });
+</script>
+</body>
+</html>

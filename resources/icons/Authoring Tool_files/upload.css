@@ -1,0 +1,22 @@
+
+#dragload
+        {
+            width: 100%;
+            height: 150px;
+            background:#d2dff3;
+            padding: 30px;
+            text-align: center;
+            margin: 0 0 20px 0;
+            border: 3px dashed royalblue;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        
+
+.upload{
+            font-family: 'Open Sans', sans-serif;
+            color: #000;
+            font-weight: 200;
+            font-size: 1.2em;
+            border-color: white;
+        }
